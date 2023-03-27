@@ -1,12 +1,15 @@
 "use client";
-
-import { FormEvent, useState } from "react";
+import { useState, useEffect } from "react";
+import { FormEvent } from "react";
 import useSWR from "swr";
 import fetchImages from "../lib/fetchImages";
 import fetchSuggestionFromChatGPT from "../lib/fetchSuggestionFromChatGPT";
 import toast from "react-hot-toast";
 
 function PromptInput() {
+
+ 
+
   const [input, setInput] = useState("");
 
   const {
@@ -73,7 +76,7 @@ function PromptInput() {
     <div className="m-10">
       <form
         onSubmit={handleSubmit}
-        className="flex flex-col lg:flex-row shadow-md shadow-slate-400/10 border rounded-md lg:divide-x"
+        className="flex flex-col lg:flex-row shadow-md shadow-gray-900/60 border rounded-md lg:divide-x"
       >
         <textarea
           placeholder={
@@ -88,7 +91,7 @@ function PromptInput() {
         <button
           className={`p-4 ${
             input
-              ? "bg-violet-500 text-white transition-colors duration-200"
+              ? "bg-blue-500 text-black transition-colors duration-200"
               : "text-gray-300 cursor-not-allowed"
           } font-bold`}
           type="submit"
@@ -97,7 +100,7 @@ function PromptInput() {
           Generate
         </button>
         <button
-          className={`p-4 bg-violet-400 text-white transition-colors duration-200 font-bold disabled:text-gray-300 disabled:cursor-not-allowed disabled:bg-gray-400`}
+          className={`p-4 bg-blue-700/90 text-gray-300 transition-colors  hover:bg-blue-500 duration-200 font-bold disabled:text-gray-300 disabled:cursor-not-allowed disabled:bg-gray-400`}
           onClick={() => submitPrompt(true)}
           disabled={isLoading || isValidating}
           type="button"
@@ -105,7 +108,7 @@ function PromptInput() {
           Use Suggestion
         </button>
         <button
-          className={`p-4 bg-white text-violet-500 border-none transition-colors duration-200 rounded-b-md md:rounded-r-md md:rounded-bl-none font-bold`}
+          className={`p-4 bg-blue-600/90 hover:bg-blue-600 text-white border-none transition-colors duration-200 rounded-b-md md:rounded-r-md md:rounded-bl-none font-bold`}
           onClick={mutate}
           type="button"
         >
