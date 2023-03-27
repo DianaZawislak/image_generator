@@ -1,12 +1,11 @@
-![Azure](https://img.shields.io/badge/Azure-0747a6?style=flat&logo=coursera&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![NextJS](https://img.shields.io/badge/nextJS-white?style=flat&logo=next.js&logoColor=black)
 ![React](https://img.shields.io/badge/React-28242c?style=flat&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-1572B6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-222222?style=flat&logo=javascript&logoColor=F7DF1E)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-1572B6?style=flat&logo=tailwindcss&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-1572B6?style=flat&logo=typeScript&logoColor=white)
-![NextJS](https://img.shields.io/badge/nextJS-1572B6?style=flat&logo=nextJS&logoColor=black)
-
 
 
 This is an AI image generator powered by chatGPT and Dalee with Azure supporting backend and  deployment
