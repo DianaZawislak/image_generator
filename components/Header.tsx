@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 
 
+
 function Header() {
 
   const [theme, setTheme] = useState("light");
@@ -31,8 +32,8 @@ function Header() {
           height={50}
           width={50}
         />
-        <div className="pl-8">
-          <h1 className="font-bold lg:text-2xl">
+        <div className="pl-8 flex-col">
+          <h1 className="font-bold lg:text-2xl sm:text-lg xs:text-xs">
              <span className="text-blue-500">AI</span> Image
             Generator built by Diana Zawislak
           </h1>
@@ -40,14 +41,9 @@ function Header() {
         </div>
       </div>
 
-      <div className="flex  justify-items-end md:text-base space-x-4">
-      <SocialIcon  fgColor="lightgrey"
-                  bgColor="gray" url="https://www.linkedin.com/in/dianazawislak1980/" />
-      <SocialIcon  fgColor="lightgrey"
-                  bgColor="gray"url="https://github.com/DianaZawislak" />
-      <button className=" bg-gray divide-x p-3 rounded-md text-black" onClick={handleThemeSwitch}>
-          DARK MODE
-        </button>
+      <div className="space-x-2 flex-shrink">
+      <SocialIcon  fgColor="lightgrey" bgColor="gray" url="https://www.linkedin.com/in/dianazawislak1980/" />
+      <SocialIcon  fgColor="lightgrey" bgColor="gray" url="https://github.com/DianaZawislak" />
       </div>
       </header>
   );
