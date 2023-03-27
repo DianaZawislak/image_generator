@@ -22,8 +22,8 @@ function Images() {
   return (
     <div>
       <button
-        className="fixed bottom-10 right-10 bg-violet-400/90 text-white px-5 py-3 rounded-md 
-      hover:bg-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-400 font-bold z-20"
+        className="fixed bottom-10 right-10 bg-blue-400/90 text-white px-5 py-3 rounded-md 
+      hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-400 font-bold z-20"
         onClick={() => refreshImages(images)}
       >
         {!isLoading && isValidating ? "Refreshing..." : "Refresh Images"}
