@@ -4,7 +4,8 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-1572B6?style=flat&logo=tailwindcss&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
-![PassingGrade](https://img.shields.io/badge/Grading%20criteria-Passing-brightgreen)
+![TypeScript](https://img.shields.io/badge/TypeScript-1572B6?style=flat&logo=typeScript&logoColor=white)
+
 
 
 This is an AI image generator powered by chatGPT and Dalee with Azure supporting backend and  deployment
