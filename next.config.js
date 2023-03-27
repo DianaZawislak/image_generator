@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
+  reactStrictMode: true,
   experimental: {
     appDir: true,
   },
-}
-
-module.exports = nextConfig
+  images: {
+    domains: [
+      "aiimagegeneratorby957144.blob.core.windows.net",
+      "links.papareact.com",
+    ],
+  },
+};
