@@ -1,3 +1,5 @@
+This is an AI image generator powered by chatGPT and Dalee with Azure supporting backend and  deployment
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
